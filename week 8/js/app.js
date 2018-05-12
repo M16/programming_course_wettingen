@@ -14,3 +14,9 @@ function sum() {
         document.getElementById("C").style.backgroundColor = "lightblue";        
     }
 }
+
+function sumNumtoStr() {
+    var firstNum = document.getElementById("num").value;
+    var res = String(firstNum);
+    document.getElementById("res").value = res;
+}
