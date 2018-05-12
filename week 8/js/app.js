@@ -24,4 +24,27 @@ function sumNumtoStr() {
     var i = "123";
     var j = 7;
     console.log(Number(i) + j);
+
+    //conditionals
+    var a = 5;
+    var b = 7;
+
+    var c = (a == b);
+    console.log(c);
+    c = (a != b);    
+    console.log(c);
+    c = (a == a);    
+    console.log(c);
+    c = (a > b);    
+    console.log(c);
+    c = (a <= b);    
+    console.log(c);
+
+    a=b;
+    c = (a <= b);    
+    console.log(c);
+    c = (a < b);    
+    console.log(c);
+    c = (a == b);    
+    console.log(c);
 }
