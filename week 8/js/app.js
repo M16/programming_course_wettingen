@@ -22,5 +22,5 @@ function sumNumtoStr() {
 
     var i = "123";
     var j = 7;
-    console.log(j+i)
+    console.log(Number(i) + j)
 }
