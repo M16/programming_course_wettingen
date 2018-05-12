@@ -19,4 +19,8 @@ function sumNumtoStr() {
     var firstNum = document.getElementById("num").value;
     var res = String(firstNum);
     document.getElementById("res").value = res;
+
+    var i = "123";
+    var j = 7;
+    console.log(j+i)
 }
